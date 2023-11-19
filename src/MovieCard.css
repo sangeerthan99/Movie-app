@@ -1,0 +1,53 @@
+.card{
+    max-height: 28rem;
+width: 15rem;
+margin-right: 1.5rem;
+margin-bottom:1.5rem; 
+background-color:rgb(229, 9 ,20) ;
+overflow: hidden ;
+position: relative;
+box-shadow: 0px 5px 10px 0px;
+}
+
+.poster img{
+    max-width: 15rem;
+    max-height: 23rem;
+}
+
+.info{
+ display: flex;
+ justify-content: space-between;
+margin: 0.5rem;
+
+}
+.overview{
+    transform: translateY(100%);
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(240, 248, 255, 0.889);
+    padding: 1rem;
+    overflow: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.card:hover .overview{
+    transform: translateY(0%);
+    transition: transform 0.5s ease-in-out;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+}
+.vote{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    font-weight: 1000;
+    color: rgba(7, 7, 7, 0.856);
+}

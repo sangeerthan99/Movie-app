@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.App{
+padding:1.5rem;
+background-color: rgba(0, 0, 0, 0.884);
+}
+.search_nav{
+
+  display:flex;
+  flex-wrap: wrap;
+  padding-bottom:1.5rem ;
+}
+
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.title{
+  
+  padding-right: 3rem;
+}
+.title h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.searchbox input{
+  width: 20rem;
+  height: 1.5rem;
+  border: 0;
+  outline: 0;
+  margin-right: 0.5rem;
+  margin-left: 10rem;
+  padding: 0.3rem;
+  border-radius: 0.7rem;
+}
+
+.searchbox button{
+  height: 2rem;
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 0.3rem;
+  border-radius: 0.7rem;
+}
