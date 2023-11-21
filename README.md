@@ -1,2 +1,2 @@
-# Movie-app
-this is a movie db app , i just create it for practice purpose
+# Movie-Metro
+his is a Movie Database app which gives idea about the movies and their ratings using TMDB API Database
